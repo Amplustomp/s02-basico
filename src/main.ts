@@ -1,12 +1,13 @@
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+console.log("Hola Como Estas, Soy Sergio")
+console.log("Creo que entendí el ejercicio")
+console.log("Y esto lo demuestra")
 
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
+// Importamos nuestro archivo de variables
+// *  ==> todos los export dentro del archivo
+// xx ==> le asignamos un nombre
+// './ts_basicos/variables_let_const'  ==> nombre del archivo
+import * as xx from './01_ts_basico/01_variables_let_const';
 
-if (environment.production) {
-  enableProdMode();
-}
-
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+// Por medio del nombre ==> xx
+//  invocamos a la función que se encuentra exportada
+xx.ej_01_variables_basicas()

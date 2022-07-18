@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "s02-basico": {
+    "s02-fun-basicas": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/s02-basico",
+            "outputPath": "dist/s02-fun-basicas",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "s02-basico:build:production"
+              "browserTarget": "s02-fun-basicas:build:production"
             },
             "development": {
-              "browserTarget": "s02-basico:build:development"
+              "browserTarget": "s02-fun-basicas:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "s02-basico:build"
+            "browserTarget": "s02-fun-basicas:build"
           }
         },
         "test": {
