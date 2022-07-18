@@ -1,3 +1,7 @@
+# LA DOCUMENTACION DEL CURSO SE ENCUENTRA EN:
+
+https://alumno.portalacademico.cl/material/avancetree 
+
 # S02FunBasicas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
