@@ -10,6 +10,7 @@ import * as e01 from './01_ts_basico/01_variables_let_const';
 import * as e02 from './01_ts_basico/02_arreglos';
 import * as e03 from './01_ts_basico/03_funcions';
 import * as e04 from './01_ts_basico/04_interfaces';
+import * as e07 from './01_ts_basico/07_clases';
 
 
 // Por medio del nombre ==> xx
@@ -24,3 +25,5 @@ e03.ej_03_funciones()
 
 //  invocamos a la función que se encuentra exportada
 e04.ej_04_instancia_interface()
+
+e07.xxx()
